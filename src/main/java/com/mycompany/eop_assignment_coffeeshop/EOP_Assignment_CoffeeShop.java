@@ -1,5 +1,5 @@
  /*
- * Group: I Love Luqman
+ * Group: 1
 TOPIC: COFFEE SHOP MANAGEMENT SYSTEM
  */
 package com.mycompany.eop_assignment_coffeeshop;
@@ -11,8 +11,6 @@ static String order[][] = new String[3][999];   //customer name, order contents 
 //static String customer[]; //store name of customer (depreciated)
 static String staff[] = {"", "Luqman", "Syahir", "Muazzam", "Mirza", "Khaleel"}; //store name of staff
 static int drinkID = 1;
-static int drinkOrderStore = 0;
-static String drinkOrderString = "";
 static String name, price, userInput;
 static String tempBeverageName;
 static int tempBeveragePrice;
